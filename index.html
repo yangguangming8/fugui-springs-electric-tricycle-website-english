@@ -3,97 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fugui Springs Electric Tricycle - Home</title>
-    <meta name="description" content="Welcome to Fugui Springs Electric Tricycle - manufacturer of high-quality electric tricycles for passenger and cargo transportation.">
+    <title>Fugui Springs Electric Tricycle - High-Quality Electric Vehicles</title>
+    <meta name="description" content="Fugui Springs specializes in manufacturing high-quality electric tricycles and mobility solutions. Explore our range of electric vehicles for personal and commercial use.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header Section -->
+    <!-- Header -->
     <header class="header">
         <div class="container">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/fugui-springs-logo.png" alt="Fugui Springs Electric Tricycle Logo">
-                </a>
-            </div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li class="dropdown">
-                        <a href="products.html">Products</a>
-                        <ul class="dropdown-content">
-                            <li><a href="products.html#passenger">Passenger Tricycles</a></li>
-                            <li><a href="products.html#cargo">Cargo Tricycles</a></li>
-                            <li><a href="products.html#custom">Custom Solutions</a></li>
-                            <li><a href="products.html#parts">Parts & Accessories</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="business.html">Business Partnership</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-            <div class="mobile-menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Fugui Springs Logo">
+                    </a>
+                </div>
+                
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li class="dropdown">
+                            <a href="products.html">Products</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="products.html#passenger">Passenger Tricycles</a></li>
+                                <li><a href="products.html#cargo">Cargo Tricycles</a></li>
+                                <li><a href="products.html#special">Special Purpose Vehicles</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="factory.html">Factory Tour</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-actions">
+                    <a href="contact.html" class="btn btn-primary">Get Quote</a>
+                </div>
             </div>
         </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-content">
-            <h1>Leading Electric Tricycle Manufacturer</h1>
-            <p>Eco-friendly transportation solutions for passengers and cargo</p>
-            <div class="hero-btns">
-                <a href="products.html" class="btn primary-btn">Explore Products</a>
-                <a href="contact.html" class="btn secondary-btn">Contact Us</a>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Premium Electric Tricycles for Every Need</h1>
+                <p>Innovative, durable, and energy-efficient mobility solutions designed and manufactured in China</p>
+                <div class="hero-btns">
+                    <a href="products.html" class="btn btn-primary">Explore Products</a>
+                    <a href="#featured" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Energy Efficient</h3>
+                    <p>Our electric tricycles are designed to maximize battery life and efficiency.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Premium Quality</h3>
+                    <p>Built with high-grade materials to ensure durability and longevity.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Customizable</h3>
+                    <p>Tailor our vehicles to your specific requirements and preferences.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Eco-Friendly</h3>
+                    <p>Zero emissions for a cleaner environment and sustainable future.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Featured Products Section -->
-    <section class="featured-products">
+    <section id="featured" class="products featured-products">
         <div class="container">
-            <h2 class="section-title">Featured Products</h2>
-            <div class="product-grid">
+            <div class="section-header">
+                <h2>Featured Electric Tricycles</h2>
+                <p>Discover our most popular models trusted by customers worldwide</p>
+            </div>
+            
+            <div class="products-grid">
                 <div class="product-card">
                     <div class="product-img">
-                        <img src="images/passenger-tricycle-1.jpg" alt="Passenger Electric Tricycle">
+                        <img src="images/product-1.jpg" alt="Passenger Electric Tricycle">
+                        <div class="product-badge">Best Seller</div>
                     </div>
                     <div class="product-info">
-                        <h3>Deluxe Passenger Tricycle</h3>
-                        <p>Comfortable seating for up to 6 passengers with weather protection canopy.</p>
-                        <a href="products.html#passenger" class="btn outline-btn">Learn More</a>
+                        <h3>Comfort Rider Pro</h3>
+                        <p>Luxurious passenger tricycle with comfortable seating for up to 6 people.</p>
+                        <ul class="product-features">
+                            <li>48V/60V Battery Options</li>
+                            <li>1000W Brushless Motor</li>
+                            <li>Weather-resistant Canopy</li>
+                            <li>LED Lighting System</li>
+                        </ul>
+                        <a href="products.html#passenger" class="btn btn-outline">View Details</a>
                     </div>
                 </div>
-
+                
                 <div class="product-card">
                     <div class="product-img">
-                        <img src="images/cargo-tricycle-1.jpg" alt="Cargo Electric Tricycle">
+                        <img src="images/product-2.jpg" alt="Cargo Electric Tricycle">
                     </div>
                     <div class="product-info">
-                        <h3>Heavy Duty Cargo Tricycle</h3>
-                        <p>500kg load capacity with reinforced frame and powerful motor.</p>
-                        <a href="products.html#cargo" class="btn outline-btn">Learn More</a>
+                        <h3>Heavy Hauler 500</h3>
+                        <p>Powerful cargo tricycle capable of handling up to 500kg loads with ease.</p>
+                        <ul class="product-features">
+                            <li>72V High-capacity Battery</li>
+                            <li>1500W Heavy-duty Motor</li>
+                            <li>Reinforced Cargo Bed</li>
+                            <li>Hydraulic Braking System</li>
+                        </ul>
+                        <a href="products.html#cargo" class="btn btn-outline">View Details</a>
                     </div>
                 </div>
-
+                
                 <div class="product-card">
                     <div class="product-img">
-                        <img src="images/custom-tricycle-1.jpg" alt="Custom Electric Tricycle">
+                        <img src="images/product-3.jpg" alt="Utility Electric Tricycle">
+                        <div class="product-badge">New Model</div>
                     </div>
                     <div class="product-info">
-                        <h3>Custom Food Cart Tricycle</h3>
-                        <p>Mobile business solution with customizable serving counter and storage.</p>
-                        <a href="products.html#custom" class="btn outline-btn">Learn More</a>
+                        <h3>Urban Delivery Express</h3>
+                        <p>Nimble and efficient delivery tricycle perfect for urban logistics.</p>
+                        <ul class="product-features">
+                            <li>48V Lithium Battery</li>
+                            <li>800W Efficient Motor</li>
+                            <li>Insulated Delivery Box</li>
+                            <li>Digital Control Panel</li>
+                        </ul>
+                        <a href="products.html#special" class="btn btn-outline">View Details</a>
                     </div>
                 </div>
+            </div>
+            
+            <div class="products-cta">
+                <a href="products.html" class="btn btn-primary">View All Products</a>
             </div>
         </div>
     </section>
@@ -101,55 +181,37 @@
     <!-- About Company Section -->
     <section class="about-company">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2 class="section-title">About Fugui Springs</h2>
-                    <p>Founded in 2005, Fugui Springs has been at the forefront of electric tricycle innovation and manufacturing excellence for over 15 years. With a strong commitment to quality, sustainability, and customer satisfaction, we have grown to become a trusted global provider of electric transportation solutions.</p>
-                    <p>Our state-of-the-art manufacturing facility spans over 20,000 square meters and employs more than 200 skilled professionals dedicated to producing premium electric tricycles for diverse applications.</p>
-                    <a href="about.html" class="btn primary-btn">Learn More About Us</a>
-                </div>
-                <div class="about-img">
-                    <img src="images/factory-image.jpg" alt="Fugui Springs Factory">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us Section -->
-    <section class="why-choose-us">
-        <div class="container">
-            <h2 class="section-title">Why Choose Fugui Springs</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-medal"></i>
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="section-header">
+                        <h2>About Fugui Springs</h2>
+                        <p>Your Trusted Partner in Electric Mobility Solutions</p>
                     </div>
-                    <h3>Premium Quality</h3>
-                    <p>All our products undergo rigorous quality control and testing procedures to ensure reliability and durability.</p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-leaf"></i>
+                    
+                    <p>Founded in 2005, Fugui Springs has grown to become one of China's leading manufacturers of electric tricycles and specialized electric vehicles. Our state-of-the-art manufacturing facility spans over 30,000 square meters and employs more than 200 skilled professionals.</p>
+                    
+                    <p>With a focus on innovation, quality, and customer satisfaction, we've successfully exported our products to over 50 countries across Asia, Africa, Europe, and the Americas. Our commitment to excellence has earned us ISO 9001, CE, and other international certifications.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-text">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-text">Countries Served</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10k+</span>
+                            <span class="stat-text">Vehicles Produced</span>
+                        </div>
                     </div>
-                    <h3>Eco-Friendly</h3>
-                    <p>Our electric tricycles produce zero emissions, contributing to a cleaner and greener environment.</p>
+                    
+                    <a href="about.html" class="btn btn-secondary">Learn More About Us</a>
                 </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-cogs"></i>
-                    </div>
-                    <h3>Customizable</h3>
-                    <p>Tailor our products to meet your specific needs with a wide range of customization options.</p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-headset"></i>
-                    </div>
-                    <h3>Excellent Support</h3>
-                    <p>Our dedicated customer service team ensures prompt assistance and technical support whenever needed.</p>
+                
+                <div class="about-image">
+                    <img src="images/factory.jpg" alt="Fugui Springs Factory">
                 </div>
             </div>
         </div>
@@ -158,83 +220,130 @@
     <!-- Testimonials Section -->
     <section class="testimonials">
         <div class="container">
-            <h2 class="section-title">What Our Clients Say</h2>
-            <div class="testimonial-slider">
-                <div class="testimonial-card">
-                    <div class="testimonial-text">
-                        <p>"We've been using Fugui Springs tricycles for our tour operation for over 3 years. The quality is outstanding, and their after-sales service is exceptional."</p>
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Feedback from satisfied customers around the world</p>
+            </div>
+            
+            <div class="testimonial-slider-container">
+                <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                
+                <div class="testimonial-slider">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"We've been using Fugui Springs cargo tricycles for our delivery business for three years now. Their durability and reliability have helped us grow our operations significantly."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-1.jpg" alt="John Smith">
+                            <div class="author-info">
+                                <h4>John Smith</h4>
+                                <p>Delivery Company Owner, UK</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="testimonial-author">
-                        <img src="images/testimonial-1.jpg" alt="John Williams">
-                        <div>
-                            <h4>John Williams</h4>
-                            <p>City Tours, USA</p>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"The passenger tricycles we purchased for our tourism business have been a hit with visitors. The quality is excellent and the after-sales support from Fugui Springs is outstanding."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-2.jpg" alt="Maria Rodriguez">
+                            <div class="author-info">
+                                <h4>Maria Rodriguez</h4>
+                                <p>Tour Operator, Spain</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"As a distributor of electric vehicles in South Africa, I've worked with many manufacturers. Fugui Springs stands out for their product quality, competitive pricing, and excellent communication."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-3.jpg" alt="David Okonkwo">
+                            <div class="author-info">
+                                <h4>David Okonkwo</h4>
+                                <p>EV Distributor, South Africa</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-text">
-                        <p>"As a distributor in Europe, I appreciate Fugui Springs' attention to detail and their commitment to meeting our market's strict quality standards."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="images/testimonial-2.jpg" alt="Maria Schmidt">
-                        <div>
-                            <h4>Maria Schmidt</h4>
-                            <p>EcoMove GmbH, Germany</p>
-                        </div>
-                    </div>
-                </div>
+                
+                <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
             </div>
         </div>
     </section>
 
-    <!-- Call to Action Section -->
-    <section class="cta">
+    <!-- CTA Section -->
+    <section class="cta-section">
         <div class="container">
-            <h2>Ready to Elevate Your Transportation Experience?</h2>
-            <p>Contact us today to discuss your requirements and discover how our electric tricycles can benefit your business.</p>
-            <a href="contact.html" class="btn primary-btn">Get in Touch</a>
+            <div class="cta-content">
+                <h2>Ready to Explore Our Electric Tricycle Solutions?</h2>
+                <p>Contact our team to discuss your requirements and get a customized quote</p>
+                <a href="contact.html" class="btn btn-light">Contact Us Today</a>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="images/fugui-springs-logo-white.png" alt="Fugui Springs Logo">
-                    <p>Innovative electric tricycle solutions for a sustainable future.</p>
+            <div class="footer-top">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="images/logo-white.png" alt="Fugui Springs Logo">
+                    </div>
+                    <p>Leading manufacturer of high-quality electric tricycles and specialized electric vehicles for various applications.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
                 </div>
-                <div class="footer-links">
-                    <h3>Quick Links</h3>
+                
+                <div class="footer-col">
+                    <h3>Products</h3>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="business.html">Business Partnership</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="products.html#passenger">Passenger Tricycles</a></li>
+                        <li><a href="products.html#cargo">Cargo Tricycles</a></li>
+                        <li><a href="products.html#special">Food Delivery Vehicles</a></li>
+                        <li><a href="products.html#special">Street Vending Carts</a></li>
+                        <li><a href="products.html#special">Custom Solutions</a></li>
                     </ul>
                 </div>
-                <div class="footer-contact">
-                    <h3>Contact Information</h3>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
                     <ul>
-                        <li><i class="fas fa-map-marker-alt"></i> 123 Industrial Zone, Anytown, China</li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="factory.html">Factory Tour</a></li>
+                        <li><a href="quality.html">Quality Control</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Industrial Zone, Wuxi City, Jiangsu Province, China</li>
                         <li><i class="fas fa-phone"></i> +86 123 4567 8910</li>
                         <li><i class="fas fa-envelope"></i> info@fuguisprings.com</li>
                     </ul>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
                 </div>
             </div>
+            
             <div class="footer-bottom">
-                <p>&copy; 2025 Fugui Springs Electric Tricycle. All Rights Reserved.</p>
+                <p>&copy; 2023 Fugui Springs Electric Vehicle Co., Ltd. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
             </div>
         </div>
+        
+        <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
     </footer>
 
     <!-- JavaScript -->
